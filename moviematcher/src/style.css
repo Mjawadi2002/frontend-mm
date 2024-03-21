@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0px;
+    align-content: center;
+    display:block;
+    background-image: url("../public/images/Untitled\ design\ \(29\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+    
+  }
+  
+  
+  .navbar-nav li {
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-nav li:hover {
+    background-color: #555;
+  }
+  
+  .navbar-nav li a {
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #fff;
+  }
+  
+  
