@@ -7,7 +7,8 @@ import About from './About';
 import Contact from './Contact'
 import Profile from './Profile'
 import Nomatch from "./Nomatch";
-
+import Login from "./Login";
+import Signup from "./Signup";
 const App = () => {
   return (
     <Router>
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="*" element={<Nomatch />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
         <Footer />
       </div>
