@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 class Login extends Component{
     render(){
         return(
-            <div className="container-fluid card py-3">
+           <div className="py-5">
+                 <div className="container-fluid card py-3">
                 <h1 className="text-white text-center display-1 py-1" style={{ fontFamily: "cinematic" }}> Welcome <span style={{color:"red"}}> Back</span> </h1>
                 <div className="row">
                     <div className="col-md-10 mx-auto">
@@ -28,6 +29,7 @@ class Login extends Component{
                     </div>
                 </div>
             </div>
+           </div>
         );
     }
 }

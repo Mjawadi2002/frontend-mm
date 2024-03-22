@@ -4,8 +4,9 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
-            <div className="container-fluid card">
-                <h1 className="text-white text-center display-1 py-1" style={{ fontFamily: "cinematic" }}> For Contact</h1>
+            <div className="py-5">
+                <div className="container-fluid card ">
+                <h1 className="text-white text-center display-1 py-1" style={{ fontFamily: "cinematic" }}> For <span style={{color:"red"}}> Contact</span></h1>
                 <div className="row">
                     <div className="col-md-4 mx-auto" >
                         <img
@@ -38,6 +39,8 @@ class Contact extends Component {
                     </div>
                 </div>
             </div>
+            </div>
+          
         );
     }
 }

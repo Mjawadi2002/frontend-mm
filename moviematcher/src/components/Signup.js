@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 class Signup extends Component {
     render() {
         return (
-            <div className="container-fluid card py-3">
+            <div className="py-5">
+                            <div className="container-fluid card py-3">
                 <h1 className="text-white text-center display-1 py-1" style={{ fontFamily: "cinematic" }}>
                     Create <span style={{ color: "red" }}>Account</span>
                 </h1>
@@ -36,6 +37,7 @@ class Signup extends Component {
                         </form>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }
