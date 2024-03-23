@@ -25,7 +25,7 @@ class Contact extends Component {
                                 <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Email address" />
                             </div>
                             <div className="mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Problem description"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Problem description"></textarea>
                             </div>
 
                             <div className="text-center">
