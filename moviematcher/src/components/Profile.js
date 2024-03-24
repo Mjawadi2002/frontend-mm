@@ -1,9 +1,17 @@
-import { Component } from "react";
+import React,{ Component } from "react";
 
 class Profile extends Component{
+    constructor(){
+        super()
+    }
     render(){
+       
         return(
-            <p className="display-3 text-white text-center">Profile Works !</p>
+            <div className="container">
+                <img></img> 
+           
+
+            </div>
         );
     }
 }

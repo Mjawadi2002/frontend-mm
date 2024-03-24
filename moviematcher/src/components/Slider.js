@@ -4,7 +4,7 @@ class Slider extends Component {
   render() {
     return (
       <div style={{ border: "5px solid white", borderRadius: "20px", padding: "10px", backdropFilter: "blur(15px)",
-      backgroundColor: "rgba(255,255,255,0.2)" }}>
+      backgroundColor: "rgba(255,255,255,0.2)" ,marginRight:"50px",marginLeft:"50px"}}>
         <div style={{ backgroundColor: "black", borderRadius: "20px" }}>
           <div id="carouselExampleFade" className="carousel slide carousel-fade">
             <div className="carousel-inner">
