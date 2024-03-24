@@ -7,12 +7,12 @@ class Developer extends Component{
             
             <div className="custom-card ">
             <img 
-                src="/images/moh.jpg" 
-                className="card-img-top"
+                src={this.props.image} 
+                class="card-img-top"
             />
-            <div className="card-body">
-              <h5 className="card-title">Jawadi Mouhanned</h5>
-              <p className="card-text">Responsible of frontend design and developement.</p>
+            <div class="card-body">
+              <h5 class="card-title">{this.props.name}</h5>
+              <p class="card-text">{this.props.description}</p>
               
             </div>
           </div>

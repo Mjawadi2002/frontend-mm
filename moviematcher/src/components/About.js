@@ -14,13 +14,26 @@ class About extends Component{
                 <h1 className="text-white text-center display-1 py-1" style={{ fontFamily: "cinematic" }}> Dev <span style={{ color: "red" }}>Team</span></h1>
                 <div className="row mx-auto">
                     <div className="col-md-4 ">
-                        <Developer />
+                        <Developer 
+                            image="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/400995447_314736324661367_5765779282205814559_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7JsiI3JKKkoAX-3Ec-_&_nc_ht=scontent.ftun16-1.fna&oh=00_AfBZCOoKo9lgW1V5k_gMxcdazf16xGmRnDv_07Zca9O87w&oe=66032D64"
+                            name="Jawadi Mouhanned"
+                            description="Responsible for frontend developement"
+                        
+                        />
                     </div>
                     <div className="col-md-4">
-                        <Developer />
+                        <Developer 
+                            image="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/400995447_314736324661367_5765779282205814559_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7JsiI3JKKkoAX-3Ec-_&_nc_ht=scontent.ftun16-1.fna&oh=00_AfBZCOoKo9lgW1V5k_gMxcdazf16xGmRnDv_07Zca9O87w&oe=66032D64"
+                            name="Soussia Sarra"
+                            description="Responsible for backend developement"
+                        />
                     </div>
                     <div className="col-md-4 ">
-                        <Developer />
+                        <Developer 
+                            image="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/400995447_314736324661367_5765779282205814559_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7JsiI3JKKkoAX-3Ec-_&_nc_ht=scontent.ftun16-1.fna&oh=00_AfBZCOoKo9lgW1V5k_gMxcdazf16xGmRnDv_07Zca9O87w&oe=66032D64"
+                            name="Bhiri Ghoul Ala"
+                            description="Responsible for ai developement"
+                        />
                     </div>
                 </div>
 
