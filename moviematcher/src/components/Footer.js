@@ -18,6 +18,7 @@ class Footer extends Component{
                                             <img 
                                             src="/images/linkedin.png"
                                             width="60rem"
+                                            alt=""
                                             />
                                         </a>
                                         
@@ -27,6 +28,7 @@ class Footer extends Component{
                                             <img 
                                                 src="/images/instagram.png"
                                                 width="60rem"
+                                                alt=""
                                             />
                                         </a>
                                     </div>
@@ -35,6 +37,7 @@ class Footer extends Component{
                                             <img 
                                                 src="/images/facebook.png"
                                                 width="60rem"
+                                                alt=""
                                             />
                                         </a>
 
@@ -44,6 +47,7 @@ class Footer extends Component{
                                             <img 
                                                 src="/images/youtube.png"
                                                 width="60rem"
+                                                alt=""
                                             />
                                         </a>
                                     </div>
@@ -58,6 +62,7 @@ class Footer extends Component{
                                 <img 
                                     src="/images/logo.png"
                                     width="400px"
+                                    alt=""
                                 />
                             </div>
                         </div>
